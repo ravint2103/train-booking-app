@@ -1,0 +1,28 @@
+<app-header></app-header>
+<app-sidebar></app-sidebar>
+<div class="content-block">
+  <h4 class="mt-3 mb-3">Search Train</h4>
+  <form class="form-inline book-ticket" [formGroup]="reserveForm" (ngSubmit)="onSubmit()">
+    <div class="form-row w-100">
+      <div class="form-group col-md-3">
+        <input type="text" formControlName="fromStation" class="form-control m-2" placeholder="From Station" list="fromcity" (change)="autoComplete($event)">
+        <datalist id="fromcity">
+          <option *ngFor="let city of citylist" [value]="city.CityName">{{city.CityName}}</option>
+        </datalist>
+      </div>
+      <div class="form-group col-md-3">
+        <input type="text" formControlName="toStation" class="form-control m-2" placeholder="To Station" list="tocity" (change)="autoComplete($event)">
+        <datalist id="tocity">
+          <option *ngFor="let city of citylist" [value]="city.CityName">{{city.CityName}}</option>
+        </datalist>
+      </div>
+      <div class="form-group col-md-3">
+        <input type="date" formControlName="journeyDate" class="form-control m-2" id="df" placeholder="Journey Date" min="1997-01-01"
+          max="2030-12-31">
+      </div>
+      <div class="form-group col-md-3">
+        <button type="submit" class="btn btn-primary m-2">Search</button>
+      </div>
+    </div>
+  </form>
+</div>

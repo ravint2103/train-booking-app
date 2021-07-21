@@ -1,0 +1,246 @@
+{
+  "userdetails": [
+    {
+      "id": 1,
+      "Name": "Ravin",
+      "Email": "ravin.professional@gmail.com",
+      "Mobile": 9965131327,
+      "Password": "123",
+      "Confirmpassword": "123"
+    }
+  ],
+  "availabletrainlists": [
+    {
+      "id": 1,
+      "TrainNo": "02463/64",
+      "TrainName": "Samprak kranti",
+      "RateforOneSeat": 450,
+      "Date": "05-07-2020",
+      "FromStation": "Jodhpur",
+      "ToStation": "Delhi",
+      "AvailableSeats": 270
+    },
+    {
+      "id": 2,
+      "TrainNo": "02555/56",
+      "TrainName": "Hisar",
+      "RateforOneSeat": 450,
+      "Date": "18-05-2016",
+      "FromStation": "Chennai",
+      "ToStation": "Bangalore",
+      "AvailableSeats": 120
+    },
+    {
+      "id": 3,
+      "TrainNo": "02805/06",
+      "TrainName": "AP Express",
+      "RateforOneSeat": 950,
+      "Date": "03-18-2016",
+      "FromStation": "Vishakapatnam",
+      "ToStation": "New Delhi",
+      "AvailableSeats": 336
+    },
+    {
+      "id": 4,
+      "TrainNo": "04649/50",
+      "TrainName": "Saryu Yamuna Express",
+      "RateforOneSeat": 1245,
+      "Date": "07-09-2020",
+      "FromStation": "Bangalore",
+      "ToStation": "Chennai",
+      "AvailableSeats": 420
+    },
+    {
+      "id": 5,
+      "TrainNo": "02463/64",
+      "TrainName": "Samprak kranti",
+      "RateforOneSeat": 450,
+      "Date": "05-07-2020",
+      "FromStation": "Jodhpur",
+      "ToStation": "Delhi",
+      "AvailableSeats": 270
+    },
+    {
+      "id": 6,
+      "TrainNo": "02555/56",
+      "TrainName": "Hisar",
+      "RateforOneSeat": 450,
+      "Date": "18-05-2016",
+      "FromStation": "Bangalore",
+      "ToStation": "Chennai",
+      "AvailableSeats": 120
+    },
+    {
+      "id": 7,
+      "TrainNo": "02805/06",
+      "TrainName": "AP Express",
+      "RateforOneSeat": 950,
+      "Date": "03-18-2016",
+      "FromStation": "Vishakapatnam",
+      "ToStation": "New Delhi",
+      "AvailableSeats": 336
+    },
+    {
+      "id": 8,
+      "TrainNo": "04649/50",
+      "TrainName": "Saryu Yamuna Express",
+      "RateforOneSeat": 1245,
+      "Date": "07-09-2020",
+      "FromStation": "Amritsar",
+      "ToStation": "Jaynagar",
+      "AvailableSeats": 420
+    },
+    {
+      "id": 9,
+      "TrainNo": "02555/56",
+      "TrainName": "Hisar",
+      "RateforOneSeat": 450,
+      "Date": "18-05-2016",
+      "FromStation": "Gorakhpur",
+      "ToStation": "Gorakhdham Express",
+      "AvailableSeats": 120
+    },
+    {
+      "id": 10,
+      "TrainNo": "12677",
+      "TrainName": "Ernakulam Express",
+      "RateforOneSeat": 450,
+      "Date": "03-18-2016",
+      "FromStation": "Ernakulam",
+      "ToStation": "Bangalore",
+      "AvailableSeats": 300
+    }
+  ],
+  "bookingdetails": [
+    {
+      "id": 1,
+      "FromStation": "Amritsar",
+      "ToStation": "Samprak kranti",
+      "TrainNumber": "02805/06",
+      "TrainName": "Ernakulam Express",
+      "Date": "05-07-2020",
+      "AvailableSeats": 450,
+      "RatePerSeat": 450,
+      "Adults": 270,
+      "Kids": 2,
+      "TotalAmount": 270,
+      "Status": true
+    },
+    {
+      "id": 2,
+      "FromStation": "Vishakapatnam",
+      "ToStation": "New Delhi",
+      "TrainNumber": "02805/06",
+      "TrainName": "AP Express",
+      "Date": "03-18-2016",
+      "AvailableSeats": 336,
+      "RatePerSeat": 950,
+      "Adults": 4,
+      "Kids": "",
+      "TotalAmount": 3800,
+      "Status": false
+    },
+    {
+      "id": 3,
+      "FromStation": "Vishakapatnam",
+      "ToStation": "New Delhi",
+      "TrainNumber": "02805/06",
+      "TrainName": "AP Express",
+      "Date": "03-18-2016",
+      "AvailableSeats": 336,
+      "RatePerSeat": 950,
+      "Adults": 8,
+      "Kids": "",
+      "TotalAmount": 7600,
+      "Status": true
+    },
+    {
+      "id": 4,
+      "FromStation": "Vishakapatnam",
+      "ToStation": "New Delhi",
+      "TrainNumber": "02805/06",
+      "TrainName": "AP Express",
+      "Date": "03-18-2016",
+      "AvailableSeats": 336,
+      "RatePerSeat": 950,
+      "Adults": 4,
+      "Kids": "",
+      "TotalAmount": 3800,
+      "Status": false
+    },
+    {
+      "id": 5,
+      "FromStation": "Vishakapatnam",
+      "ToStation": "New Delhi",
+      "TrainNumber": "02805/06",
+      "TrainName": "AP Express",
+      "Date": "03-18-2016",
+      "AvailableSeats": 336,
+      "RatePerSeat": 950,
+      "Adults": 3,
+      "Kids": "",
+      "TotalAmount": 2850,
+      "Status": false
+    },
+    {
+      "id": 6,
+      "FromStation": "Vishakapatnam",
+      "ToStation": "New Delhi",
+      "TrainNumber": "02805/06",
+      "TrainName": "AP Express",
+      "Date": "03-18-2016",
+      "AvailableSeats": 336,
+      "RatePerSeat": 950,
+      "Adults": 5,
+      "Kids": "",
+      "TotalAmount": 4750,
+      "Status": false
+    },
+    {
+      "id": 7,
+      "FromStation": "Vishakapatnam",
+      "ToStation": "New Delhi",
+      "TrainNumber": "02805/06",
+      "TrainName": "AP Express",
+      "Date": "03-18-2016",
+      "AvailableSeats": 324,
+      "RatePerSeat": 950,
+      "Adults": 12,
+      "Kids": "0",
+      "TotalAmount": 11400,
+      "Status": true
+    }
+  ],
+  "citylist": [
+    {
+      "CityName": "Chennai"
+    },
+    {
+      "CityName": "Coimbatore"
+    },
+    {
+      "CityName": "Erode"
+    },
+    {
+      "CityName": "Salem"
+    },
+    {
+      "CityName": "Nagercoil"
+    },
+    {
+      "CityName": "Ernakulam"
+    },
+    {
+      "CityName": "New Delhi"
+    },
+    {
+      "CityName": "Amritsar"
+    },
+    {
+      "CityName": "Bangalore"
+    },
+    {
+      "CityName": "Jaynagar"
+    }
+  ]
+}

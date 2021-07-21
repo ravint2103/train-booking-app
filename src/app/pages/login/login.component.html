@@ -1,0 +1,73 @@
+<div class="container-fluid d-flex login-wraper">
+  <div class="login-form p-4" *ngIf="isLoginBlock">
+    <h1 class="text-center">Login</h1>
+    <div class="formLogin">
+      <form [formGroup]="loginForm" (ngSubmit)="doLogin()">
+        <div class="form-group">
+          <input type="email" formControlName="email" class="form-control" placeholder="Email" [ngClass]="{ 'is-invalid': submitted && f.email.errors }"
+          />
+          <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+            <div *ngIf="f.email.errors.required">Username is required</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="password" formControlName="password" class="form-control" placeholder="Password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }"
+          />
+          <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+            <div *ngIf="f.password.errors.required">Password is required</div>
+          </div>
+        </div>
+        <div class="form-group mb-0 text-right">
+          <a class="mr-3" (click)="goToRegiser()">Register</a>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="login-form registration p-4" *ngIf="!isLoginBlock">
+    <h1 class="text-center">Registration</h1>
+    <div class="formLogin">
+      <form [formGroup]="registerForm" (ngSubmit)="doRegister()">
+        <div class="form-group">
+          <input type="text" formControlName="name" class="form-control" placeholder="Name" [ngClass]="{ 'is-invalid': submitted && rf.name.errors }"
+          />
+          <div *ngIf="submitted && rf.name.errors" class="invalid-feedback">
+            <div *ngIf="rf.name.errors.required">Name is required</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="email" formControlName="email" class="form-control" placeholder="Email" [ngClass]="{ 'is-invalid': submitted && rf.email.errors }"
+          />
+          <div *ngIf="submitted && rf.email.errors" class="invalid-feedback">
+            <div *ngIf="rf.email.errors.required">Email is required</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="tel" formControlName="mobile" class="form-control" placeholder="Mobile" [ngClass]="{ 'is-invalid': submitted && rf.mobile.errors }"
+          />
+          <div *ngIf="submitted && rf.mobile.errors" class="invalid-feedback">
+            <div *ngIf="rf.mobile.errors.required">Mobile is required</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="password" formControlName="password" class="form-control" placeholder="Password" [ngClass]="{ 'is-invalid': submitted && rf.password.errors }"
+          />
+          <div *ngIf="submitted && rf.password.errors" class="invalid-feedback">
+            <div *ngIf="rf.password.errors.required">Password is required</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="password" formControlName="confirmpassword" class="form-control" placeholder="Confirm Password" [ngClass]="{ 'is-invalid': submitted && rf.confirmpassword.errors }"
+          />
+          <div *ngIf="submitted && rf.confirmpassword.errors" class="invalid-feedback">
+            <div *ngIf="rf.confirmpassword.errors.required">Password is required</div>
+          </div>
+        </div>
+        <div class="form-group mb-0 text-right">
+          <a class="mr-3" (click)="goToLogin()">Login</a>
+          <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

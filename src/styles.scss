@@ -1,0 +1,226 @@
+*,
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+:focus,
+.form-control:focus {
+	outline: none;
+	box-shadow: inherit;
+}
+
+.form-control:focus {
+	border-color: #a2a2a2;
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h1,
+.h1 {
+	font-size: 24px;
+}
+
+a.nav-link {
+	color: #333;
+	font-size: 12px;
+}
+
+a.nav-link.active {
+	background: #bd2130;
+	color: #fff;
+}
+
+.list-inline .nav-link {
+	color: #fff;
+}
+
+.bg-dark,
+.login-wraper {
+	background: #1488CC url(assets/images/login-bg.jpg) no-repeat 100% 100% / 100% 100%;
+}
+
+.login-wraper {
+	height: 100vh;
+}
+
+.login-form {
+	width: 30%;
+	margin: auto;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-dark .navbar-brand {
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px;
+	letter-spacing: 3px;
+}
+
+.navbar-brand span {
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.sidebar {
+	background: #e2e2e2;
+	height: calc(100vh - 50px);
+	width: 210px;
+	float: left;
+}
+
+.content-block {
+	width: calc(100% - 245px);
+	margin-left: 15px;
+	float: left;
+}
+
+.btn {
+	padding: 5px 20px;
+	font-size: 13px;
+	height: 40px;
+}
+
+a.btn {
+	height: auto;
+}
+
+table .btn {
+	font-size: 11px
+}
+
+table .badge {
+	font-size: 10px;
+	width: 70px;
+	font-weight: 500;
+}
+
+table .btn.btn-secondary {
+	color: #666;
+	background-color: #e2e2e2;
+	border-color: #e2e2e2;
+}
+
+table .btn.btn-secondary:hover {
+	color: #666;
+	background-color: #d8d6d6;
+	border-color: #d8d6d6;
+}
+
+.btn-primary {
+	background-color: #bd2130;
+	border-color: #bd2130;
+}
+
+.btn-primary:hover {
+	background-color: #a51d2a;
+	border-color: #a51d2a;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+	box-shadow: inherit;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-inline.booking .form-control,
+.form-inline .form-control,
+.w-100,
+.form-inline.book-ticket .btn {
+	width: 100%;
+}
+
+label,
+.form-control {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.form-control {
+	height: 40px;
+}
+
+.form-inline.book-ticket .form-control,
+.form-inline.book-ticket .btn {
+	height: 45px;
+	font-size: 13px;
+}
+
+.form-inline.book-ticket .btn {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+
+/* Chrome Scroll Settings */
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+ ::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.3);
+	outline: 1px solid transparent;
+}
+
+
+/* Table Settings */
+
+table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+table tr {
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+table tr:hover {
+	background: #f9f9f9;
+}
+
+table th,
+table td {
+	font-weight: 400;
+	font-size: 12px;
+	padding: 7px 0;
+	vertical-align: middle !important;
+}
+
+table th {
+	font-weight: 600;
+	background: #205bbf;
+	color: #fff;
+	border-bottom: none !important;
+	padding: 10px!important;
+	text-transform: uppercase;
+}
+
+table.account td {
+	padding: 7px;
+	border: 1px solid #ccc;
+}
+
+table.account td:nth-child(2) {
+	font-weight: 600;
+}

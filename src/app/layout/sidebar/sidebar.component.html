@@ -1,0 +1,31 @@
+<nav id="sidebarMenu" class="sidebar">
+  <div class="sidebar-sticky">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="[ '/reservation' ]" routerLinkActive='active'>
+          <span data-feather="reservation"></span>
+          Search Train
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="[ '/train-list' ]" routerLinkActive='active'>
+          <span data-feather="train-list"></span>
+          Book a ticket
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="[ '/my-account' ]" routerLinkActive='active'>
+          <span data-feather="my-account"></span>
+          My Account
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="logout();" routerLinkActive='active'>
+          <span data-feather="login"></span>
+          Logout
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
